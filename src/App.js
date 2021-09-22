@@ -12,23 +12,25 @@ function Test(){
     return(
         <div>
             <div class="container">
-                <div class="row">
-                    <div class="col" id="three">
-                        <div>
-                            <a role="button" class="q">
-                              ?
-                            </a>
-                        </div>
+                <div class="row" id="three">
+                    <div class="col">
+                        <a role="button" class="q">
+                            ?
+                        </a>
                     </div>
+
                     <div class="col" id="big">
                         <h1>ERVAAR DE <br /> <span class="vw">VW-ERASMUS</span></h1>
                     </div>
+                    
                     <div class="col" id="logo">
-                        <img src="/src/dieteren.svg"></img>
+                        <div class="dieteren">
+                            <img src="logo1.png"/>
+                        </div>
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row" id="two">
                     <div class="col" id="auto">
                         <a role="button" id="car"></a>
                     </div> 

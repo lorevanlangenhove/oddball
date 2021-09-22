@@ -17,13 +17,6 @@ span{
     margin-left: 150px;
 }
 
-img{
-    position: absolute;
-    right: 0;
-    width: 100px;
-    height: 120px;
-}
-
 .col{
     float: left;
     width: 33.33%;
@@ -41,7 +34,7 @@ img{
     gap: 10px 20px;
 }
 
-a{
+.q{
     font-family: 'Montserrat', sans-serif;
     color:rgb(255, 255, 255); 
     padding-bottom: 55px;
@@ -53,12 +46,16 @@ a{
 
 }
 
-#logo{
-    background-image: url(./dieteren.svg);
+.dieteren{
+    background-repeat: no-repeat;
+    margin-left: -200px;
+    margin-top: -300px;
+    
 }
 
 #ex{
     font-size: 25px;
+    margin-top: 50px;
 }
 
 #car{
@@ -66,5 +63,5 @@ a{
     background-repeat: no-repeat;
     margin-left: 100px;
     padding-bottom: 350px;
-    padding-right: 250px;
+    padding-right: 280px;
 }
