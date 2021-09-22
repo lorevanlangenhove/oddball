@@ -41,14 +41,16 @@ img{
     gap: 10px 20px;
 }
 
-button{
-    background-image: url(./q.png);
-    background-repeat: no-repeat;
+a{
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(255, 255, 255); 
     padding-bottom: 55px;
-    padding-left: 25px;
+    padding-left: 50px;
     padding-right: 11px;
     margin-left: 10px;
-    
+    margin-top: 200px;
+    font-size: 50px;
+
 }
 
 #logo{
@@ -57,4 +59,12 @@ button{
 
 #ex{
     font-size: 25px;
+}
+
+#car{
+    background-image: url(./playButton.svg);
+    background-repeat: no-repeat;
+    margin-left: 100px;
+    padding-bottom: 350px;
+    padding-right: 250px;
 }

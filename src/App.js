@@ -15,9 +15,9 @@ function Test(){
                 <div class="row">
                     <div class="col" id="three">
                         <div>
-                            <button type="button">
-
-                            </button>
+                            <a role="button" class="q">
+                              ?
+                            </a>
                         </div>
                     </div>
                     <div class="col" id="big">
@@ -30,12 +30,7 @@ function Test(){
 
                 <div class="row">
                     <div class="col" id="auto">
-                        <Canvas>
-                            <Suspense fallback={<Loader/>}>
-                                <Scene/>
-                                <OrbitControls/>
-                            </Suspense>
-                        </Canvas>
+                        <a role="button" id="car"></a>
                     </div> 
 
                     <div class="col" id="ex">
