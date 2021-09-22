@@ -31,7 +31,6 @@ span{
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 10px 20px;
 }
 
 .q{
@@ -50,19 +49,19 @@ span{
 .dieteren{
     background-repeat: no-repeat;
     margin-left: -350px;
-    margin-top: -300px;
-    
+    margin-top: -300px;   
 }
 
 #ex{
     font-size: 25px;
     margin-top: 50px;
+    padding-left: 100px;
 }
 
 #car{
     background-image: url(./playButton.svg);
     background-repeat: no-repeat;
-    margin-left: 100px;
+    margin-left:350px;
     padding-bottom: 350px;
     padding-right: 280px;
 }

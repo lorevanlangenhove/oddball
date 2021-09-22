@@ -29,10 +29,10 @@ function Test(){
                             ?
                         </a>
                     </div>
-                    
                 </div>
 
                 <div class="row" id="two">
+                    
                     <div class="col" id="auto">
                         <a role="button" id="car"></a>
                     </div> 
