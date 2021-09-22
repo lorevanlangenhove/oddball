@@ -13,21 +13,23 @@ function Test(){
         <div>
             <div class="container">
                 <div class="row" id="three">
-                    <div class="col">
-                        <a role="button" class="q">
-                            ?
-                        </a>
-                    </div>
-
-                    <div class="col" id="big">
-                        <h1>ERVAAR DE <br /> <span class="vw">VW-ERASMUS</span></h1>
-                    </div>
                     
                     <div class="col" id="logo">
                         <div class="dieteren">
                             <img src="logo1.png"/>
                         </div>
                     </div>
+            
+                    <div class="col" id="big">
+                        <h1>ERVAAR DE <br /> <span class="vw">VW-ERASMUS</span></h1>
+                    </div>
+                    
+                    <div class="col">
+                        <a role="button" class="q">
+                            ?
+                        </a>
+                    </div>
+                    
                 </div>
 
                 <div class="row" id="two">
