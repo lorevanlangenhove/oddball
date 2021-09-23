@@ -13,3 +13,14 @@ Spine of iets => iFrame
 cinema4D
 
 SASS
+
+
+Feedback 23/09
+3D model goed gedaan voorlopig
+Home pagina gaat
+=> donker grijze kleur
+    - verschillende secties
+    - grijze kleur => iets te grauw => donker blauw
+    - Iets meer futuristischere look
+    - white space
+    - 960 px en 1... container => heel goed! Header oplossen in de container

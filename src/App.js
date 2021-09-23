@@ -28,61 +28,60 @@ function Test() {
         );
     } else {
         carComponent = (
-            <Canvas>
-                <Suspense fallback={<Loader/>}>
-                    <Car/>
-                    <OrbitControls/>
-                </Suspense>
-            </Canvas>
+            <div className="row" id="two">
+                <Canvas>
+                    <Suspense fallback={<Loader/>}>
+                        <Car/>
+                        <OrbitControls/>
+                    </Suspense>
+                </Canvas>
+            </div>
         );
     }
 
     return (
-        <div>
-            <div class="container">
-                <div class="row" id="three">
+        <div class="container">
+            <div class="row" id="three">
 
-                    <div class="col" id="logo">
-                        <div class="dieteren">
-                            <img src="logo1.png"/>
-                        </div>
-                    </div>
-
-                    <div class="col" id="big">
-                        <h1>ERVAAR DE <br /> <span class="vw">VW-ERASMUS</span></h1>
+                <div class="col" id="logo">
+                    <div class="dieteren">
+                        <img src="logo1.png"/>
                     </div>
                 </div>
 
-                {carComponent}
-
-                <footer>
-                    <div clas="row" id="foot">
-                        <div className="col" id="cr">
-                            <p>&copy;D'Ieteren</p>
-                        </div>
-
-                        <div className="col" id="links">
-                            <a href="https://www.facebook.com/DIeterenMovingPeopleForward" target="_blank">
-                                <img src="fb.png"/>
-                            </a>
-
-                            <a href="https://twitter.com/dieteren_auto" target="_blank">
-                                <img src="twitter.png" className="twitter"/>
-                            </a>
-
-                            <a href="https://www.linkedin.com/company/d-ieteren/" target="_blank">
-                                <img src="linkedin.png" className="linkedin"/>
-                            </a>
-                        </div>
-
-                        <div className="col" id="adres">
-                            <p>Maliestraat, 50 - 1050 Brussel - België</p>
-
-                        </div>
-                    </div>
-                </footer>
-
+                <div class="col" id="big">
+                    <h1>ERVAAR DE <br/> <span class="vw">VW-ERASMUS</span></h1>
+                </div>
             </div>
+
+            {carComponent}
+
+            <footer>
+                <div clas="row" id="foot">
+                    <div className="col" id="cr">
+                        <p>&copy;D'Ieteren</p>
+                    </div>
+
+                    <div className="col" id="links">
+                        <a href="https://www.facebook.com/DIeterenMovingPeopleForward" target="_blank">
+                            <img src="fb.png"/>
+                        </a>
+
+                        <a href="https://twitter.com/dieteren_auto" target="_blank">
+                            <img src="twitter.png" className="twitter"/>
+                        </a>
+
+                        <a href="https://www.linkedin.com/company/d-ieteren/" target="_blank">
+                            <img src="linkedin.png" className="linkedin"/>
+                        </a>
+                    </div>
+
+                    <div className="col" id="adres">
+                        <p>Maliestraat, 50 - 1050 Brussel - België</p>
+                    </div>
+
+                </div>
+            </footer>
         </div>
     )
 }
@@ -90,7 +89,7 @@ function Test() {
 function App() {
     return (
         <div className="app">
-            <Test />
+            <Test/>
         </div>
     );
 }
