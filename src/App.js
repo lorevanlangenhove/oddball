@@ -28,12 +28,10 @@ function Test() {
         );
     } else {
         carComponent = (
-            <Canvas>
-                <Suspense fallback={<Loader/>}>
-                    <Car/>
-                    <OrbitControls/>
-                </Suspense>
-            </Canvas>
+            <div class="sketchfab-embed-wrapper">
+       <iframe width="100%" height="100%" title="Auto" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/1e54eddf120948fe9514c6bab9d1a232/embed?autostart=1&camera=0&preload=1"> </iframe> 
+       
+    </div>
         );
     }
 
