@@ -27,6 +27,14 @@ span{
     width: 33.33%; 
 }
 
+.col p {
+    text-align: center;
+}
+
+#links{
+    text-align: center;
+}
+
 #big{
     margin-left: 100px;
     margin-top: 20px;
@@ -58,16 +66,20 @@ span{
 }
 
 footer{
-    margin-left: 150px;
+    /* margin-left: 150px; */
     margin-top: 150px;
+    /* margin-right: 150px; */
 }
 
-#links{
-    margin-left: 50px;
+
+#foot  {
+    display: flex;
+    justify-content: space-between;
 }
+
 
 #adres{
-    margin-left: -50px;
+    /* margin-left: -50px; */
     margin-top: -15px;
 }
 
