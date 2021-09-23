@@ -86,3 +86,14 @@ footer{
 .twitter, .linkedin{
     margin-left: 10px;
 }
+
+.sketchfab-embed-wrapper{
+    width: 50%;
+    height: 50vh;
+    margin: auto;
+    padding: auto;
+}
+
+#three {
+    height: 30vh;
+}
