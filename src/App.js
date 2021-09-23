@@ -38,6 +38,15 @@ function Test() {
                             execution-while-out-of-viewport execution-while-not-rendered web-share
                             src="https://sketchfab.com/models/1e54eddf120948fe9514c6bab9d1a232/embed?autostart=1&camera=0&preload=1"></iframe>
                 </div>
+                <div class="buttons">
+                    <button className="carbutton" id="testrit">
+                        TESTRIT
+                    </button>
+
+                    <button className="carbutton" id="bestelnu"> 
+                        BESTEL NU
+                    </button>
+                </div>
             </div>
         );
     }
