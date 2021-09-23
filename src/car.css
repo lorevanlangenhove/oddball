@@ -24,7 +24,7 @@ span{
 
 .col{
     float: left;
-    width: 33.33%; 
+    width: 33.33%;
 }
 
 .col p {
@@ -85,6 +85,17 @@ footer{
 
 .twitter, .linkedin{
     margin-left: 10px;
+}
+
+.sketchfab-embed-wrapper{
+    width: 50%;
+    height: 50vh;
+    margin: auto;
+    /*padding: auto;*/
+}
+
+#three {
+    height: 30vh;
 }
 
 .sketchfab-embed-wrapper{
