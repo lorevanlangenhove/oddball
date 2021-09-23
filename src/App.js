@@ -16,7 +16,7 @@ function Test() {
         carComponent = (
             <div className="row" id="two">
                 <div className="col" id="auto">
-                    <button type="button" id="car" onClick={() => setPlaying(true)}>
+                    <button id="car" onClick={() => setPlaying(true)}>
                         <img src="green.png"/>
                     </button>
                 </div>
