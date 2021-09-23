@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 body, #help, footer{
-    background-color: rgb(75, 75, 77);
+    background-color: rgb(27, 58, 89);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -10,7 +10,12 @@ body, #help, footer{
 }
 
 span{
-    color: rgb(78, 172, 248);
+    color: rgb(174, 212, 172);
+}
+
+.dieteren{
+    margin-top: -270px;
+    margin-left: -250px;
 }
 
 .vw{
@@ -22,8 +27,17 @@ span{
     width: 33.33%; 
 }
 
+.col p {
+    text-align: center;
+}
+
+#links{
+    text-align: center;
+}
+
 #big{
     margin-left: 100px;
+    margin-top: 20px;
 }
 
 .row::after{
@@ -37,57 +51,36 @@ span{
     justify-content: space-between;
 }
 
-.q{
-    display: inline;
-    position: absolute;
-    font-family: 'Montserrat', sans-serif;
-    color:rgb(255, 255, 255); 
-    padding-bottom: 55px;
-    padding-left: 50px;
-    padding-right: 11px;
-    margin-left: 10px;
-    margin-top: 10px;
-    font-size: 40px;
-    background-color: transparent;
-    border: none;
-
-}
-
-.dieteren{
-    background-repeat: no-repeat;
-    margin-left: -350px;
-    margin-top: -300px;   
-}
-
 #ex{
     font-size: 25px;
     margin-top: -100px;
-    padding-left: 350px;
+    padding-left: 300px;
+    margin-left: -50px;
 }
 
 #car{
-    background-image: url(./playButton.svg);
-    background-repeat: no-repeat;
-    margin-left: 250px;
-    padding-bottom: 350px;
-    padding-right: 280px;
     background-color: transparent;
     border: none;
-    margin-top: -150px;
+    margin-left: 350px;
+    margin-top: -80px;
 }
 
 footer{
-    margin-left: 150px;
-    margin-top: -200px;
+    /* margin-left: 150px; */
+    margin-top: 150px;
+    /* margin-right: 150px; */
 }
 
 
-#links{
-    margin-left: 50px;
+#foot  {
+    display: flex;
+    justify-content: space-between;
 }
+
 
 #adres{
-    margin-left: -70px;
+    /* margin-left: -50px; */
+    margin-top: -15px;
 }
 
 .twitter, .linkedin{

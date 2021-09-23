@@ -51,7 +51,17 @@ function Test() {
                     </div>
                 </div>
 
-                {carComponent}
+                <div class="row" id="two">
+                    <div class="col" id="auto">
+                        <button type="button" id="car">
+                            <img src="green.png" />
+                        </button>
+                    </div>
+
+                    <div class="col" id="ex">
+                        Welcome to the new and <br /> supersonic model of <br /> Volkswagen: <br /> the <span>VW-ERASMUS</span>! You can <br /> take a look to our latest <br /> model by dragging the car <br /> around.
+                    </div>
+                </div>
 
                 <footer>
                     <div clas="row" id="foot">
