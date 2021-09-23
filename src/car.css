@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
+
+body  {
+    height: 100vh;
+}
+
 body, #help, footer{
     background-color: rgb(27, 58, 89);
     font-family: 'Montserrat', sans-serif;
@@ -49,20 +54,24 @@ span{
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
+    /* height: 100vh; */
 }
 
 #ex{
     font-size: 25px;
-    margin-top: -100px;
     padding-left: 300px;
     margin-left: -50px;
+}
+
+#two {
+    padding-top: 2%;
+
 }
 
 #car{
     background-color: transparent;
     border: none;
     margin-left: 350px;
-    margin-top: -80px;
 }
 
 footer{
@@ -101,10 +110,6 @@ footer{
     padding: auto;
 }
 
-#three {
-    height: 30vh;
-}
-
 .buttons{
     justify-content: center;
     display: flex;
@@ -116,7 +121,7 @@ footer{
     margin: 0% 10%;
     border-radius: 5em;
     width: 15%;
-    font-size:105%;
+    font-size: 80%;
     font-weight: bold; 
 }
 
