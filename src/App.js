@@ -23,24 +23,47 @@ function Test(){
                     <div class="col" id="big">
                         <h1>ERVAAR DE <br /> <span class="vw">VW-ERASMUS</span></h1>
                     </div>
-                    
-                    <div class="col">
-                        <a role="button" class="q">
-                            ?
-                        </a>
-                    </div>
                 </div>
 
                 <div class="row" id="two">
 
                     <div class="col" id="auto">
-                        <button type="button" id="car"></button>
-                    </div> 
+                        <button type="button" id="car">
+                            <img src="play.png"></img>
+                        </button>
+                    </div>
 
                     <div class="col" id="ex">
                         Welcome to the new and <br /> supersonic model of <br /> Volkswagen: <br /> the <span>VW-ERASMUS</span>! You can <br /> take a look to our latest <br /> model by dragging the car <br /> around.
                     </div>
                 </div>
+
+                <footer>
+                    <div clas="row" id="foot">
+                        <div class="col" id="cr">
+                            <p>&copy;D'Ieteren</p>
+                        </div>
+
+                        <div class="col" id="links">
+                            <a href="https://www.facebook.com/DIeterenMovingPeopleForward" target="_blank">
+                                <img src="fb.png"/>
+                            </a>
+
+                            <a href="https://twitter.com/dieteren_auto" target="_blank">
+                                <img src="twitter.png" class="twitter"/>
+                            </a>
+
+                            <a href="https://www.linkedin.com/company/d-ieteren/" target="_blank">
+                                <img src="linkedin.png" class="linkedin"/>
+                            </a>
+                        </div>
+
+                        <div class="col" id="adres">
+                            <p>Maliestraat, 50 - 1050 Brussel - België</p>
+
+                        </div>
+                    </div>
+                </footer>
             </div>
         </div>
     )
