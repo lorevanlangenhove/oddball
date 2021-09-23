@@ -2,7 +2,7 @@ import './App.css';
 import './car.css';
 import React from "react";
 
-import Car from "./components/Car";
+import Car from "./Car";
 
 function App() {
     return (
