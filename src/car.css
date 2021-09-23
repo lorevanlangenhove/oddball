@@ -14,7 +14,7 @@ span{
 }
 
 .dieteren{
-    margin-top: -280px;
+    margin-top: -270px;
     margin-left: -250px;
 }
 
@@ -47,18 +47,19 @@ span{
     font-size: 25px;
     margin-top: -100px;
     padding-left: 300px;
+    margin-left: -50px;
 }
 
 #car{
     background-color: transparent;
     border: none;
-    margin-left: 300px;
+    margin-left: 350px;
     margin-top: -80px;
 }
 
 footer{
     margin-left: 150px;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 #links{
@@ -66,7 +67,8 @@ footer{
 }
 
 #adres{
-    margin-left: -70px;
+    margin-left: -50px;
+    margin-top: -15px;
 }
 
 .twitter, .linkedin{

@@ -58,7 +58,7 @@ function Test(){
                         </div>
 
                         <div class="col" id="adres">
-                            <p>Maliestraat, 50 - 1050 Brussel - België</p>
+                            <p>Maliestraat, 50 <br/>1050 Brussel - België</p>
 
                         </div>
                     </div>
