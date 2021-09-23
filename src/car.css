@@ -54,7 +54,7 @@ span{
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 #ex{
@@ -121,7 +121,7 @@ footer{
     margin: 0% 10%;
     border-radius: 5em;
     width: 15%;
-    font-size:105%;
+    font-size: 80%;
     font-weight: bold; 
 }
 
