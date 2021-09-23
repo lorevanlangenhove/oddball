@@ -66,9 +66,7 @@ span{
 }
 
 footer{
-    /* margin-left: 150px; */
     margin-top: 150px;
-    /* margin-right: 150px; */
 }
 
 
@@ -79,7 +77,6 @@ footer{
 
 
 #adres{
-    /* margin-left: -50px; */
     margin-top: -15px;
 }
 
@@ -91,7 +88,6 @@ footer{
     width: 50%;
     height: 50vh;
     margin: auto;
-    /*padding: auto;*/
 }
 
 #three {
@@ -107,4 +103,34 @@ footer{
 
 #three {
     height: 30vh;
+}
+
+.buttons{
+    justify-content: center;
+    display: flex;
+    margin-top: 3%;
+}
+
+.carbutton{
+    padding: 1.5em 2em;
+    margin: 0% 10%;
+    border-radius: 5em;
+    width: 15%;
+    font-size:105%;
+    font-weight: bold; 
+}
+
+#bestelnu{
+    background-color: rgb(174, 212, 172);
+    border: none;
+    color: rgb(27, 58, 89);
+}
+
+#testrit{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    border-style: solid;
+    border-width: 2.5px;
+    
 }
